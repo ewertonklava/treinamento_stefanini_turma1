@@ -1,2 +1,2 @@
-html_report: --format pretty --format html --out=reports/features_report.html
-json_report: --format pretty --format json --out=reports/features_report.json
+html_report: --format pretty --publish-quiet  --format html --out=reports/report.html
+json_report: --format progress --format json --out=report.json
