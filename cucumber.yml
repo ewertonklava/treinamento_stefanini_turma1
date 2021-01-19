@@ -1,1 +1,2 @@
-default: --no-source --color --format pretty --publish-quiet
+html_report: --format pretty --format html --out=reports/features_report.html
+json_report: --format pretty --format json --out=reports/features_report.json
