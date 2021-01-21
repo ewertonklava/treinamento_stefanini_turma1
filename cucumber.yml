@@ -1,12 +1,18 @@
-default: --publish-quiet --no-source --color --format pretty -p chrome -p html -p json
-
+default: --publish-quiet --no-source --color --format pretty -p chrome -p json_report_html -p json_report_json
+#publish: --publish-quiet
 safari: BROWSER=safari
 chrome: BROWSER=chrome
 headless: BROWSER=headless
 pretty: --format pretty
 progress: --format progress
 
-html: --format html --out=reports/report.html
-json: --format json --out=reports/report.json
+# html: --format html --out=reports/report.html
+# json: --format json --out=reports/report.json
 
 
+# default: -p html_report -p json_report -p chrome
+
+
+# Reports
+json_report_html: --format pretty --format json --out=reports/report.html
+json_report_json: --format pretty --format json --out=reports/report.json
