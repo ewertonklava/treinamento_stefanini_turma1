@@ -10,4 +10,3 @@ html: --format html --out=reports/report.html
 json: --format json --out=reports/report.json
 
 
-
