@@ -65,11 +65,11 @@ GEM
     method_source (1.0.0)
     middleware (0.1.0)
     mini_mime (1.0.2)
+    mini_portile2 (2.8.1)
     minitest (5.14.3)
     multi_test (0.1.2)
-    nokogiri (1.11.1-x64-mingw32)
-      racc (~> 1.4)
-    nokogiri (1.11.1-x86_64-darwin)
+    nokogiri (1.14.3)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     page-object (2.2.6)
       page_navigation (>= 0.10)
@@ -86,7 +86,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (4.0.6)
-    racc (1.5.2)
+    racc (1.6.2)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -126,6 +126,7 @@ GEM
 PLATFORMS
   x64-mingw32
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   capybara
